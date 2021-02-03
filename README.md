@@ -7,3 +7,4 @@ Storing all my precourse files and notes
 ## <a name="Week1">Week 1</a>
 
 ### [Command Line Help](Week1/Notes/Command-Line.txt)
+### [playing-with-git](https://github.com/minetexter/playing-with-git)
