@@ -1,0 +1,53 @@
+date : shows date, timezone
+ls : list directory items
+cd : change directory
+cd ~ : change to home directory
+cd .. : go up one directory level, parent directory
+pwd : print working directory
+ls -lA = ls -l -A : list in long format including hidden files
+touch x : create new file x
+mkdir x : make directory x
+rmdir x : remove directory x (only if empty)
+rm x : remove file x
+rm -r x : remove directory x recursively
+rm -i : removes interactivly
+rm -f : remove write protected files
+cp x y : copy file x to y
+mv x ../x : move file x up to parent directory
+mv ../x x : move file x from parent directory to wd
+mv x y : rename x to y
+cat x : concatenate or combine, can also view txt doc
+cat x y > z : cat x and y into z
+Control + c : interrupts command
+less x.txt : scroll x file
+q : quit scrolling
+head -n x.txt : view first n lines of x file. Default n = 10
+tail -n x.txt : view last n lines of x file
+
+tail -f log.txt : watch log tails
+
+man x : manual of x
+
+ls -lA | less : piping, redirects output of ls to less
+
+ls *.txt : wildcard list any txt file
+
+find . -name "*.txt" -print : find all .txt files in current dir and print
+
+wc x.txt : word count- line count, word count, char count of x.txt
+
+whoami : username
+
+ls -l : long list to see drwx-rwx-rwx
+
+chmod u+w readme.txt : add write permission for user
+chmod a-rx readme.txt : remove read and exe for all
+
+cat > x.rb : create new rb file in terminal
+which irb : path of irb
+
+sudo rm x : remove x as superuser
+env: environment variables, env vars
+echo $ENV_VAR : view single env var e.g. HOME, PATH
+echo "Hello, world" > hello.txt : e.g. save short string to file
+export ENV_VAR=x : set new env var = x
