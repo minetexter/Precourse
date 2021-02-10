@@ -12,3 +12,4 @@ Storing all my precourse files and notes
 
 ## <a name="Week2">Week 2</a>
 ### [mastery-quizzes](https://github.com/minetexter/mastery-quizzes)
+### [ruby-kickstart](https://github.com/minetexter/ruby-kickstart)
